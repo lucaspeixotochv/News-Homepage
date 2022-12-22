@@ -1,0 +1,18 @@
+.rodape {
+    text-align: center;
+    color: var(--azul-escuro);
+    font-weight: 700;
+}
+
+.rodape a {
+    text-decoration: underline;
+    color: var(--azul-escuro);
+    font-weight: 800;
+    color: var(--azul-muito-escuro);
+}
+
+@media screen and (min-width:1440px) {
+    .rodape {
+        margin-top: 2em;
+    }
+}
